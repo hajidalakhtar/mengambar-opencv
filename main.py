@@ -1,5 +1,5 @@
 import os
-
+#import the opencv library
 import cv2
 import numpy as np
 import time
@@ -19,7 +19,7 @@ header = overlayList[1]
 drawColor = (255, 0, 255)
 
 
-
+# define a video capture object
 cap = cv2.VideoCapture(0)
 
 
